@@ -1,0 +1,81 @@
+a.navbar-brand{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: rgb(152, 226, 214);
+    font-size: 25px;
+}
+.page-footer{
+    background-color: rgb(158, 158, 158);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h3{
+    color: rgb(81, 175, 160);
+    padding: 15px;
+}
+
+h2{
+    color: rgb(81, 175, 160);
+    padding: 8px;
+}
+
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+
+body{
+    background-color: rgb(223, 222, 222);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:40px;
+}
+
+
+.pic{
+    border: 1px solid rgb(207, 147, 120);
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* small screen adjustments*/
+@media(max-width:800px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #0f3a64;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}

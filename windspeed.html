@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Lat vs Windspeed</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="Landing_Page.html">Home Page</a>
+    <!-- Nav button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- The drop down for all the 4 imagines -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Landing_Page.html">Home Page</a>
+              <a class="dropdown-item" href="temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            </div>
+          </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="comparison.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+    </div>
+  </nav>
+
+    <!-- Landing page will start with the Max temp image -->
+<div class="container text-center">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="col-md-12">
+      <h1 class="display-4">Latitude vs Wind speed</h1>
+      <img src="Resources\assets\images\Fig4.png" alt="Max Temp fig">
+      <p class="lead">
+        Wind speeds, according to the scatter plot above, are relatively low regardless of how close one gets to the equator.</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- Visualization thumbnails -->
+<div class="container - thumbnail">
+  <h3 class="text-center">Visualizations</h3>
+  <hr>
+  <p class="lead text-center">Please click on "Visualize" under each respective image for more details.</p>
+    <div class="row">
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="Resources/assets/images/Fig1.png" alt="..." class="img-thumbnail">
+          </div>
+          <div class="text-center">
+              <h3>Max Temperature</h3>
+              <p><a href="temp.html" class="btn btn-primary" role="button">Visualize</a> </p>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig2.png" alt="..." class="img-thumbnail">
+            </div>
+          <div class="text-center">
+              <h3>Humidity</h3>
+              <p><a href="humidity.html" class="btn btn-primary" role="button">Visualize</a> </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <div class="thumbnail">
+              <img src="Resources/assets/images/Fig3.png" alt="..." class="img-thumbnail">
+            </div>
+            <div class="text-center">
+                <h3>Cloudiness</h3>
+                <p><a href="cloudiness.html" class="btn btn-primary" role="button">Visualize</a> </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="thumbnail">
+            <img src="Resources/assets/images/Fig4.png" alt="..." class="img-thumbnail">
+          </div>
+          <div class="text-center">
+              <h3>Windspeed</h3>
+              <p><a href="windspeed.html" class="btn btn-primary" role="button">Visualize</a> </p>
+        </div>
+      </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
